@@ -1,16 +1,37 @@
-# flutter_local_notifications_demo
+# Flutter Local Notifications Demo
 
-A new Flutter project.
+This is a demo project that showcases the usage of the `flutter_local_notifications` package to display local notifications in a Flutter application.
 
-## Getting Started
+## Prerequisites
 
-This project is a starting point for a Flutter application.
+Before running this demo, make sure you have the following prerequisites:
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (version 3.10.1 or higher)
+- Dart SDK (version 3.0.1 or higher)
+- Android Studio or VS Code with Flutter extensions installed
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Follow the steps below to run the demo:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tuanvo2908t/flutter_local_notifications_demo.git
+2. Navigate to the project directory:
+   ```bash
+   cd flutter_local_notifications_demo
+3. flutter pub get
+   ```bash
+   flutter pub get
+4. Run the app:
+   ```bash
+   flutter run
+   
+## Usage
+1. Launch the app on your device/emulator.
+2. Grant the necessary permissions for notifications when prompted.
+3. The app displays a simple UI with a button to schedule a notification.
+4. Tap the "Schedule Notification" button to schedule a local notification.
+5. The scheduled notification will appear in the device's notification tray at the specified time.
+6. Tap the notification to open the app or perform any custom action.
+
