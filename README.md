@@ -31,7 +31,6 @@ Follow the steps below to run the demo:
 1. Launch the app on your device/emulator.
 2. Grant the necessary permissions for notifications when prompted.
 
-...
 
 ## Code Explanation
 
@@ -52,5 +51,4 @@ The `notifi_service.dart` file is the main component responsible for handling lo
 
 The `home_page.dart` file defines the UI of the home screen. It provides a button that, when tapped, triggers a local notification.
 
-...
 
